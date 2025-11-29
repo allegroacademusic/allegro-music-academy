@@ -2,28 +2,37 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="section contact">
-      <div className="container">
-        <h2>Contacto</h2>
-        <p>Escríbenos para más información.</p>
-        <form className="contact-form" onSubmit={(e)=>{e.preventDefault(); alert('Formulario enviado (simulado)');}}>
-          <div className="row">
-            <input name="name" placeholder="Nombre" required />
-            <input name="phone" placeholder="Teléfono" />
-          </div>
-          <input name="email" placeholder="Correo electrónico" type="email" required />
-          <textarea name="message" placeholder="Mensaje / qué te interesa" rows="4" />
-          <div className="form-actions">
-            <button className="btn btn-primary" type="submit">Enviar</button>
-            <p>
-  También puedes contactarnos desde nuestro 
-  <a href="https://linktr.ee/allegroacademusic" target="_blank">Linktree</a>.
-</p>
-          </div>
-        </form>
-      </div>
+    <section className="contact" id="contact">
+      <h2>Contacto</h2>
+      <p>¿Tienes preguntas o quieres inscribirte? Escríbenos:</p>
+
+      <form 
+        action="https://formspree.io/f/xyzqaerw" 
+        method="POST"
+        className="contact-form"
+      >
+        <input 
+          type="text" 
+          name="name" 
+          placeholder="Tu nombre" 
+          required 
+        />
+
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="Tu email" 
+          required 
+        />
+
+        <textarea 
+          name="message" 
+          placeholder="Tu mensaje" 
+          required
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   );
 }
-
-
