@@ -5,7 +5,7 @@ export default function Contact() {
     <section id="contact" className="section contact">
       <div className="container">
         <h2>Contacto</h2>
-        <p>Escríbenos para más información o reservar una clase de prueba.</p>
+        <p>Escríbenos para más información.</p>
         <form className="contact-form" onSubmit={(e)=>{e.preventDefault(); alert('Formulario enviado (simulado)');}}>
           <div className="row">
             <input name="name" placeholder="Nombre" required />
@@ -25,4 +25,5 @@ export default function Contact() {
     </section>
   );
 }
+
 
