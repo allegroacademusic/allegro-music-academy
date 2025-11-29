@@ -1,10 +1,13 @@
 import React from "react";
 
 const classList = [
-  { title: "Piano (individual)", desc: "Clases personalizadas para todos los niveles." },
-  { title: "Guitarra", desc: "Técnica, acompañamiento y teoría aplicada." },
-  { title: "Voz", desc: "Técnica vocal, respiración y repertorio." },
-  { title: "Iniciación (niños)", desc: "Divertido y práctico para empezar con música." },
+  { title: "Lenguaje Musical (grupal)", desc: "Clases en grupo — 50€/mes." },
+  { title: "Violín", desc: "Clases individuales de 1 hora — 80€/mes." },
+  { title: "Viola", desc: "Clases individuales de 1 hora — 80€/mes." },
+  { title: "Piano", desc: "Clases individuales de 1 hora — 80€/mes." },
+  { title: "Guitarra", desc: "Clases individuales de 1 hora — 80€/mes." },
+  { title: "Clarinete", desc: "Clases individuales de 1 hora — 80€/mes." },
+  { title: "Otros instrumentos", desc: "Si hay suficientes alumnos interesados, abrimos grupo o clases individuales." }
 ];
 
 export default function Classes() {
