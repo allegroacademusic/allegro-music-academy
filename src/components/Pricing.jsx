@@ -1,10 +1,8 @@
 import React from "react";
 
 const pricing = [
-  { name: "Individual 30'", price: "€30 / clase" },
-  { name: "Individual 45'", price: "€40 / clase" },
-  { name: "Individual 60'", price: "€55 / clase" },
-  { name: "Pack mensual (4x45')", price: "€140 / mes" },
+  { name: "Clases individuales de instrumento (1 hora)", price: "80€ / mes" },
+  { name: "Lenguaje Musical (grupales)", price: "50€ / mes" },
 ];
 
 export default function Pricing() {
@@ -20,7 +18,10 @@ export default function Pricing() {
             </div>
           ))}
         </div>
-        <p className="small-note">Descuentos para hermanos y packs intensivos. Consulta disponibilidad.</p>
+
+        <p className="small-note">
+          Pregunta por descuentos para hermanos o grupos.
+        </p>
       </div>
     </section>
   );
