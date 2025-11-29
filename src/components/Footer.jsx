@@ -9,8 +9,8 @@ export default function Footer() {
           <p>Allegro Music Academy · Clases presenciales · Reserva tu plaza</p>
         </div>
         <div className="footer-right">
-          <p>Dirección: Calle Falsa 123 · Ciudad</p>
-          <p>Email: info@allegromusicacademy.example</p>
+          <p>Dirección: Calle Miguel Bueno · Fuengirola</p>
+          <p>Email: allegroacademusic@gmail.com</p>
           <p>
   <a href="https://linktr.ee/allegroacademusic" target="_blank">
     Nuestro Linktree
@@ -21,4 +21,5 @@ export default function Footer() {
     </footer>
   );
 }
+
 
