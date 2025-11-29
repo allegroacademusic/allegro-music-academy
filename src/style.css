@@ -39,11 +39,65 @@ body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,"Helve
 .price-card{background:var(--card);padding:18px;border-radius:10px;min-width:170px;flex:1;box-shadow:var(--shadow);text-align:center}
 .small-note{margin-top:12px;color:rgba(16,36,40,0.6)}
 
-/* CONTACT */
-.contact-form{max-width:720px;margin:0 auto}
-.contact-form .row{display:flex;gap:12px}
-.contact-form input, .contact-form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(16,36,40,0.08);margin-top:8px}
-.form-actions{margin-top:12px;text-align:right}
+/* ====== CONTACTO ====== */
+
+.contact {
+  padding: 60px 20px;
+  background: #F5EDE3; /* crema */
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.4rem;
+  color: #8A0000; /* rojo vino del logo */
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Formulario */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border: 2px solid #8A0000;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  background: white;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+/* Botón */
+.contact-form button {
+  background: #8A0000;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #600000;
+}
 
 /* FOOTER */
 .site-footer{padding:28px 0;background:rgba(0,0,0,0.03);margin-top:40px}
