@@ -11,8 +11,14 @@ export default function Footer() {
         <div className="footer-right">
           <p>Dirección: Calle Falsa 123 · Ciudad</p>
           <p>Email: info@allegromusicacademy.example</p>
+          <p>
+  <a href="https://linktr.ee/allegroacademusic" target="_blank">
+    Nuestro Linktree
+  </a>
+</p>
         </div>
       </div>
     </footer>
   );
 }
+
