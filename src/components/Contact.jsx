@@ -15,9 +15,14 @@ export default function Contact() {
           <textarea name="message" placeholder="Mensaje / qué te interesa" rows="4" />
           <div className="form-actions">
             <button className="btn btn-primary" type="submit">Enviar</button>
+            <p>
+  También puedes contactarnos desde nuestro 
+  <a href="https://linktr.ee/allegroacademusic" target="_blank">Linktree</a>.
+</p>
           </div>
         </form>
       </div>
     </section>
   );
 }
+
