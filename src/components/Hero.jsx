@@ -10,8 +10,10 @@ export default function Hero() {
         <div className="hero-ctas">
           <a className="btn btn-primary" href="#classes">Ver clases</a>
           <a className="btn btn-outline" href="#contact">Contactar</a>
+          <a href="https://linktr.ee/allegroacademusic" target="_blank">Linktree</a>
         </div>
       </div>
     </section>
   );
 }
+
