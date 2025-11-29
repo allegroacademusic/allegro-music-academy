@@ -6,10 +6,13 @@ export default function About() {
       <div className="container">
         <h2>Sobre Nosotros</h2>
         <p>
-          En Allegro Music Academy ofrecemos formación musical personalizada para todas las edades.
-          Profesores titulados y metodología práctica para que aprendas tocando desde el primer día.
+        Allegro Music Academy es un centro dedicado a la enseñanza musical integral,
+        tanto para niños como para adultos. Su enfoque principal es ofrecer un trato
+        personalizado a cada alumno, entendiendo que cada persona aprende a un ritmo 
+        propio y necesita distintos tipos de orientación para desarrollar sus capacidades musicales.
         </p>
       </div>
     </section>
   );
 }
+
